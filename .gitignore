@@ -1,0 +1,76 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+sdist/
+wheels/
+*.manifest
+*.spec
+pip-wheel-metadata/
+.installed.cfg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# 测试 / 类型 / Lint 缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== 环境与密钥 =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===== 数据库 / 本地数据 =====
+*.sqlite3
+*.sqlite
+*.db
+backend/data/*
+!backend/data/.gitkeep
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ===== 构建产物 / 日志 =====
+*.log
+logs/
+*.pid
+
+# ===== 依赖锁文件（按需保留，默认忽略） =====
+# 如使用 uv/poetry，请注释掉对应行
+# uv.lock
+# poetry.lock
